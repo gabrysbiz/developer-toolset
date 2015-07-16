@@ -1,0 +1,7 @@
+Compress empty elements tags: true
+Insert required attributes: false
+Insert missing tags: false 
+Quote attributes values: true
+Format soucre: true
+Fix XML declaration: true
+Convert line delimiters to: false
