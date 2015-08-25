@@ -888,8 +888,7 @@
                 <parameter>
                     <key>exceptions</key>
                     <value>java.lang.InterruptedException, java.lang.NumberFormatException, java.text.ParseException,
-                        java.net.MalformedURLException
-                    </value>
+                        java.net.MalformedURLException</value>
                 </parameter>
             </parameters>
         </rule>
@@ -1922,8 +1921,7 @@
                     <key>headerFormat</key>
                     <value>^\/\*.+www\.gabrys\.biz\/projects\/.+Copyright \(c\) [0-9]{4}.+This file is licensed under
                         the.+\(the "License"\)\..+You may not use this file except in compliance with the License\..+You
-                        may obtain a copy of the License at:.+$
-                    </value>
+                        may obtain a copy of the License at:.+$</value>
                 </parameter>
                 <parameter>
                     <key>isRegularExpression</key>
@@ -6268,8 +6266,7 @@
                 <parameter>
                     <key>tagOrder</key>
                     <value>@author, @version, @param, @return, @throws, @exception, @since, @see, @serial, @serialField,
-                        @serialData, @deprecated
-                    </value>
+                        @serialData, @deprecated</value>
                 </parameter>
             </parameters>
         </rule>
@@ -6277,12 +6274,43 @@
             <repositoryKey>squid</repositoryKey>
             <key>S1309</key>
             <priority>INFO</priority>
-            <parameters>
-                <parameter>
-                    <key>whitelistMode</key>
-                    <value>BLACKLIST</value>
-                </parameter>
-            </parameters>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2925</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2658</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1989</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2924</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1845</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3047</key>
+            <priority>MAJOR</priority>
+            <parameters />
         </rule>
     </rules>
 </profile>
