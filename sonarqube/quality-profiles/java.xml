@@ -2801,12 +2801,6 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
-            <key>DMI_BLOCKING_METHODS_ON_URL</key>
-            <priority>BLOCKER</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>findbugs</repositoryKey>
             <key>UL_UNRELEASED_LOCK</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -3433,12 +3427,6 @@
             <repositoryKey>findbugs</repositoryKey>
             <key>VA_PRIMITIVE_ARRAY_PASSED_TO_OBJECT_VARARG</key>
             <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>findbugs</repositoryKey>
-            <key>DMI_COLLECTION_OF_URLS</key>
-            <priority>BLOCKER</priority>
             <parameters />
         </rule>
         <rule>
