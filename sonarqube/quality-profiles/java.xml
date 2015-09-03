@@ -5548,12 +5548,6 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck</key>
             <priority>MINOR</priority>
             <parameters />
