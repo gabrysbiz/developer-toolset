@@ -661,12 +661,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S109</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>S106</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5795,6 +5789,115 @@
                     <value>true</value>
                 </parameter>
             </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S109</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>Authorized numbers</key>
+                    <value>-1,0,1</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2975</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2221</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3340</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1258</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1448</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>countNonpublicMethods</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>maximumMethodThreshold</key>
+                    <value>35</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2973</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1854</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3052</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1996</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2972</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>Max</key>
+                    <value>25</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3318</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2653</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1941</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S818</key>
+            <priority>MINOR</priority>
+            <parameters />
         </rule>
     </rules>
 </profile>
