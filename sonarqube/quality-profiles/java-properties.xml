@@ -129,5 +129,11 @@
             <priority>INFO</priority>
             <parameters />
         </rule>
+        <rule>
+            <repositoryKey>jproperties</repositoryKey>
+            <key>S2068</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
     </rules>
 </profile>
