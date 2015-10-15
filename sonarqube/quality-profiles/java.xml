@@ -4877,12 +4877,6 @@
         </rule>
         <rule>
             <repositoryKey>pmd</repositoryKey>
-            <key>DefaultPackage</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>pmd</repositoryKey>
             <key>AvoidPrefixingMethodParameters</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5631,12 +5625,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S1309</key>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>S2925</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -5684,9 +5672,7 @@
             <parameters>
                 <parameter>
                     <key>exceptions</key>
-                    <value>java.lang.InterruptedException, java.lang.NumberFormatException, java.text.ParseException,
-                        java.net.MalformedURLException
-                    </value>
+                    <value>java.lang.InterruptedException, java.lang.NumberFormatException, java.text.ParseException, java.net.MalformedURLException</value>
                 </parameter>
             </parameters>
         </rule>
@@ -5697,9 +5683,7 @@
             <parameters>
                 <parameter>
                     <key>tagOrder</key>
-                    <value>@author, @version, @param, @return, @throws, @exception, @since, @see, @serial, @serialField,
-                        @serialData, @deprecated
-                    </value>
+                    <value>@author, @version, @param, @return, @throws, @exception, @since, @see, @serial, @serialField, @serialData, @deprecated</value>
                 </parameter>
             </parameters>
         </rule>
@@ -5898,6 +5882,82 @@
             <key>S818</key>
             <priority>MINOR</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1188</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>Max</key>
+                    <value>20</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1602</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1604</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1710</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2718</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1609</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1611</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1612</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1610</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2293</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1309</key>
+            <priority>INFO</priority>
+            <parameters>
+                <parameter>
+                    <key>listOfWarnings</key>
+                    <value>unchecked</value>
+                </parameter>
+            </parameters>
         </rule>
     </rules>
 </profile>
