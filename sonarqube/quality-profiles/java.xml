@@ -76,12 +76,6 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.annotation.MissingDeprecatedCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.annotation.MissingOverrideCheck</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -115,37 +109,7 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.coding.IllegalInstantiationCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.coding.IllegalTokenCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -176,12 +140,6 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.design.InnerTypeLastCheck</key>
             <priority>INFO</priority>
             <parameters />
@@ -191,21 +149,6 @@
             <key>com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck</key>
             <priority>MAJOR</priority>
             <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>allowStaticMemberImports</key>
-                    <value>false</value>
-                </parameter>
-                <parameter>
-                    <key>allowClassImports</key>
-                    <value>false</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -242,6 +185,17 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>tokens</key>
+                    <value>SINGLE_LINE_COMMENT,BLOCK_COMMENT_BEGIN</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.javadoc.AtclauseOrderCheck</key>
             <priority>MAJOR</priority>
             <parameters>
@@ -254,12 +208,6 @@
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -284,7 +232,12 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheck</key>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters>
+                <parameter>
+                    <key>ignoreInlineTags</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -313,12 +266,6 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck</key>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck</key>
-            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -354,12 +301,6 @@
                     <value>^[A-Z]$</value>
                 </parameter>
             </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -413,54 +354,6 @@
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.whitespace.NoLineWrapCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.whitespace.TypecastParenPadCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
             <repositoryKey>common-java</repositoryKey>
             <key>DuplicatedBlocks</key>
             <priority>MAJOR</priority>
@@ -471,6 +364,39 @@
             <key>FailedUnitTests</key>
             <priority>MAJOR</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>common-java</repositoryKey>
+            <key>InsufficientBranchCoverage</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>minimumBranchCoverageRatio</key>
+                    <value>65</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>common-java</repositoryKey>
+            <key>InsufficientCommentDensity</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>minimumCommentDensity</key>
+                    <value>25</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>common-java</repositoryKey>
+            <key>InsufficientLineCoverage</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>minimumLineCoverageRatio</key>
+                    <value>65</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>common-java</repositoryKey>
@@ -3520,12 +3446,6 @@
             <repositoryKey>pmd-unit-tests</repositoryKey>
             <key>JUnit4TestShouldUseTestAnnotation</key>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>pmd-unit-tests</repositoryKey>
-            <key>JUnitAssertionsShouldIncludeMessage</key>
-            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
