@@ -354,6 +354,37 @@
             <parameters />
         </rule>
         <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>javadoc_style</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>checkFirstSentence</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>scope</key>
+                    <value>private</value>
+                </parameter>
+                <parameter>
+                    <key>excludeScope</key>
+                    <value>nothing</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>INTERFACE_DEF,CLASS_DEF,METHOD_DEF,CTOR_DEF,VARIABLE_DEF</value>
+                </parameter>
+                <parameter>
+                    <key>checkEmptyJavadoc</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>checkHtml</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
             <repositoryKey>common-java</repositoryKey>
             <key>DuplicatedBlocks</key>
             <priority>MAJOR</priority>
@@ -3976,12 +4007,6 @@
             <repositoryKey>squid</repositoryKey>
             <key>S1143</key>
             <priority>BLOCKER</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1145</key>
-            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
