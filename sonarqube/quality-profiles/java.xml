@@ -409,17 +409,6 @@
         </rule>
         <rule>
             <repositoryKey>common-java</repositoryKey>
-            <key>InsufficientCommentDensity</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>minimumCommentDensity</key>
-                    <value>25</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>common-java</repositoryKey>
             <key>InsufficientLineCoverage</key>
             <priority>MAJOR</priority>
             <parameters>
