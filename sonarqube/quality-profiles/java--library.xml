@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <profile>
-    <name>gabrys.biz</name>
+    <name>gabrys.biz library</name>
     <language>java</language>
     <rules>
         <rule>
@@ -308,11 +308,11 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>maxPrivate</key>
+                    <key>maxTotal</key>
                     <value>100</value>
                 </parameter>
                 <parameter>
-                    <key>maxTotal</key>
+                    <key>maxPrivate</key>
                     <value>100</value>
                 </parameter>
                 <parameter>
@@ -320,11 +320,11 @@
                     <value>100</value>
                 </parameter>
                 <parameter>
-                    <key>maxPublic</key>
+                    <key>maxProtected</key>
                     <value>100</value>
                 </parameter>
                 <parameter>
-                    <key>maxProtected</key>
+                    <key>maxPublic</key>
                     <value>100</value>
                 </parameter>
             </parameters>
