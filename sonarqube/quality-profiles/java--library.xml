@@ -4794,8 +4794,20 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2060</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2061</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2062</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -4980,6 +4992,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2140</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2142</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -5120,6 +5138,12 @@
             <repositoryKey>squid</repositoryKey>
             <key>S2188</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2189</key>
+            <priority>BLOCKER</priority>
             <parameters />
         </rule>
         <rule>
@@ -5418,6 +5442,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2637</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2638</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5621,6 +5651,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3038</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3047</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5646,6 +5682,12 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S3282</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3306</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
