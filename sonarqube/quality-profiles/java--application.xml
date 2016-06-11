@@ -4992,6 +4992,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2141</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2142</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -5574,6 +5580,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2886</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2912</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5630,6 +5642,12 @@
                     <value>^[a-z][a-zA-Z0-9]*$</value>
                 </parameter>
             </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3020</key>
+            <priority>CRITICAL</priority>
+            <parameters />
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
@@ -5805,6 +5823,12 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S888</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S899</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
