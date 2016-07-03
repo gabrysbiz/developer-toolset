@@ -3629,12 +3629,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>LowerCaseLongSuffixCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>MaximumInheritanceDepth</key>
             <priority>MAJOR</priority>
             <parameters>
@@ -4614,19 +4608,7 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S1701</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>S1710</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1724</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -4646,12 +4628,6 @@
             <repositoryKey>squid</repositoryKey>
             <key>S1845</key>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1848</key>
-            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -4699,12 +4675,6 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S1872</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1873</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
@@ -5836,12 +5806,6 @@
             <repositoryKey>squid</repositoryKey>
             <key>S923</key>
             <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>StringEqualityComparisonCheck</key>
-            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>

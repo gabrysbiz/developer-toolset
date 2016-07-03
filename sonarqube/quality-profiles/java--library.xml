@@ -308,7 +308,11 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>maxTotal</key>
+                    <key>maxProtected</key>
+                    <value>100</value>
+                </parameter>
+                <parameter>
+                    <key>maxPublic</key>
                     <value>100</value>
                 </parameter>
                 <parameter>
@@ -320,11 +324,7 @@
                     <value>100</value>
                 </parameter>
                 <parameter>
-                    <key>maxProtected</key>
-                    <value>100</value>
-                </parameter>
-                <parameter>
-                    <key>maxPublic</key>
+                    <key>maxTotal</key>
                     <value>100</value>
                 </parameter>
             </parameters>
@@ -3629,12 +3629,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>LowerCaseLongSuffixCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>MaximumInheritanceDepth</key>
             <priority>MAJOR</priority>
             <parameters>
@@ -4620,19 +4614,7 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S1701</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>S1710</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1724</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -4652,12 +4634,6 @@
             <repositoryKey>squid</repositoryKey>
             <key>S1845</key>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1848</key>
-            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -4705,12 +4681,6 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S1872</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1873</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
@@ -5842,12 +5812,6 @@
             <repositoryKey>squid</repositoryKey>
             <key>S923</key>
             <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>StringEqualityComparisonCheck</key>
-            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
