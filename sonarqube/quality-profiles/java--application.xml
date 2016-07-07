@@ -3576,12 +3576,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>CycleBetweenPackages</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>EmptyFile</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -4980,6 +4974,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2148</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2151</key>
             <priority>BLOCKER</priority>
             <parameters />
@@ -5780,9 +5780,43 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S818</key>
+            <key>S3553</key>
             <priority>MINOR</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3577</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>format</key>
+                    <value>^((Test|IT)[a-zA-Z0-9]+|[A-Z][a-zA-Z0-9]*(Test|IT|TestCase|ITCase))$</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3599</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3631</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S818</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>checkOnlyLong</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>

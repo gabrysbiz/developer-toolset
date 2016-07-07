@@ -91,6 +91,12 @@
         </rule>
         <rule>
             <repositoryKey>jproperties</repositoryKey>
+            <key>bom-utf8-files</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>jproperties</repositoryKey>
             <key>comment-convention</key>
             <priority>MINOR</priority>
             <parameters>
