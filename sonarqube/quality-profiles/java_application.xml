@@ -534,12 +534,6 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
-            <key>CD_CIRCULAR_DEPENDENCY</key>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>fb-contrib</repositoryKey>
             <key>CEBE_COMMONS_EQUALS_BUILDER_ISEQUALS</key>
             <priority>INFO</priority>
             <parameters />
@@ -1675,12 +1669,6 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>STS_SPURIOUS_THREAD_STATES</key>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>fb-contrib</repositoryKey>
-            <key>STT_STRING_PARSING_A_FIELD</key>
             <priority>INFO</priority>
             <parameters />
         </rule>
@@ -4693,12 +4681,6 @@
             <repositoryKey>squid</repositoryKey>
             <key>S1244</key>
             <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1258</key>
-            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
