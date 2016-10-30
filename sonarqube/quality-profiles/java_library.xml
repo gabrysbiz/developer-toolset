@@ -247,17 +247,6 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.metrics.ClassDataAbstractionCouplingCheck</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>max</key>
-                    <value>10</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.metrics.JavaNCSSCheck</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -3658,12 +3647,6 @@
         </rule>
         <rule>
             <repositoryKey>pmd</repositoryKey>
-            <key>OptimizableToArrayCall</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>pmd</repositoryKey>
             <key>RedundantFieldInitializer</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -3855,12 +3838,6 @@
         <rule>
             <repositoryKey>pmd-unit-tests</repositoryKey>
             <key>JUnit4TestShouldUseTestAnnotation</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>pmd-unit-tests</repositoryKey>
-            <key>JUnitSpelling</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -4980,12 +4957,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S1697</key>
-            <priority>BLOCKER</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>S1698</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5005,6 +4976,12 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S1710</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1711</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -5988,6 +5965,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2959</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2970</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6247,6 +6230,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3725</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S818</key>
             <priority>MINOR</priority>
             <parameters>
@@ -6276,12 +6265,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S923</key>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>SwitchLastCaseIsDefaultCheck</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -6305,6 +6288,10 @@
                 <parameter>
                     <key>forClasses</key>
                     <value>**</value>
+                </parameter>
+                <parameter>
+                    <key>exclusion</key>
+                    <value>**.internal.**</value>
                 </parameter>
             </parameters>
         </rule>
