@@ -3914,17 +3914,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>ClassCyclomaticComplexity</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>max</key>
-                    <value>200</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>ClassVariableVisibilityCheck</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -4975,6 +4964,21 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S1820</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>countNonpublicFields</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>maximumFieldThreshold</key>
+                    <value>20</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S1844</key>
             <priority>BLOCKER</priority>
             <parameters />
@@ -5415,6 +5419,12 @@
             <repositoryKey>squid</repositoryKey>
             <key>S2167</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2168</key>
+            <priority>BLOCKER</priority>
             <parameters />
         </rule>
         <rule>
@@ -6006,6 +6016,17 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3030</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>threshold</key>
+                    <value>0</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3034</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6014,6 +6035,18 @@
             <repositoryKey>squid</repositoryKey>
             <key>S3038</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3042</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3046</key>
+            <priority>BLOCKER</priority>
             <parameters />
         </rule>
         <rule>
@@ -6032,6 +6065,12 @@
             <repositoryKey>squid</repositoryKey>
             <key>S3066</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3067</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6215,6 +6254,17 @@
             <key>S3725</key>
             <priority>MAJOR</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3776</key>
+            <priority>CRITICAL</priority>
+            <parameters>
+                <parameter>
+                    <key>Threshold</key>
+                    <value>15</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
