@@ -28,6 +28,12 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.FileContentsHolder</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheck</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -65,6 +71,10 @@
                 <parameter>
                     <key>allowSamelineMultipleAnnotations</key>
                     <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,METHOD_DEF,CTOR_DEF,VARIABLE_DEF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -111,7 +121,12 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.coding.IllegalInstantiationCheck</key>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -209,7 +224,12 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck</key>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters>
+                <parameter>
+                    <key>allowNewlineParagraph</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -255,7 +275,12 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck</key>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters>
+                <parameter>
+                    <key>tokens</key>
+                    <value>LITERAL_WHILE,LITERAL_DO,LITERAL_FOR,LITERAL_IF,LITERAL_ELSE,LITERAL_SWITCH,LITERAL_CASE,LITERAL_TRY,LITERAL_CATCH,QUESTION</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -277,6 +302,21 @@
                 <parameter>
                     <key>allowedAbbreviationLength</key>
                     <value>3</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,ANNOTATION_DEF,ANNOTATION_FIELD_DEF,PARAMETER_DEF,VARIABLE_DEF,METHOD_DEF</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.naming.CatchParameterNameCheck</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>format</key>
+                    <value>^(e|t|ex|[a-z][a-z][a-zA-Z]+)$</value>
                 </parameter>
             </parameters>
         </rule>
@@ -303,6 +343,10 @@
                 <parameter>
                     <key>maxPublic</key>
                     <value>100</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF,ENUM_CONSTANT_DEF,ENUM_DEF,INTERFACE_DEF</value>
                 </parameter>
                 <parameter>
                     <key>maxPrivate</key>
@@ -341,6 +385,17 @@
             <key>com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck</key>
             <priority>MINOR</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>validateComments</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
