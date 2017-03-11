@@ -2750,12 +2750,6 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
-            <key>RV_RETURN_VALUE_IGNORED_BAD_PRACTICE</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>findbugs</repositoryKey>
             <key>SE_BAD_FIELD_STORE</key>
             <priority>CRITICAL</priority>
             <parameters />
