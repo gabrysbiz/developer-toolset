@@ -2226,7 +2226,7 @@
         <rule>
             <repositoryKey>findbugs</repositoryKey>
             <key>DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED</key>
-            <priority>MAJOR</priority>
+            <priority>INFO</priority>
             <parameters />
         </rule>
         <rule>
@@ -3984,7 +3984,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>MethodCyclomaticComplexity</key>
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters>
                 <parameter>
                     <key>Threshold</key>
@@ -4251,7 +4251,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S109</key>
-            <priority>MINOR</priority>
+            <priority>MAJOR</priority>
             <parameters>
                 <parameter>
                     <key>Authorized numbers</key>
@@ -4410,7 +4410,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S1166</key>
-            <priority>CRITICAL</priority>
+            <priority>MAJOR</priority>
             <parameters>
                 <parameter>
                     <key>exceptions</key>
@@ -4580,7 +4580,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S1214</key>
-            <priority>MINOR</priority>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -4771,7 +4771,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S1452</key>
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -5058,7 +5058,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2039</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -5490,7 +5490,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2221</key>
-            <priority>CRITICAL</priority>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -5910,7 +5910,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2925</key>
-            <priority>CRITICAL</priority>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6204,7 +6204,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S3658</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6250,7 +6250,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S899</key>
-            <priority>CRITICAL</priority>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
