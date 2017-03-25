@@ -4309,17 +4309,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S1142</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>max</key>
-                    <value>3</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>S1143</key>
             <priority>BLOCKER</priority>
             <parameters />
@@ -4575,12 +4564,6 @@
             <repositoryKey>squid</repositoryKey>
             <key>S1213</key>
             <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1214</key>
-            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -6211,12 +6194,6 @@
             <repositoryKey>squid</repositoryKey>
             <key>S3655</key>
             <priority>BLOCKER</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S3658</key>
-            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
