@@ -86,12 +86,6 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.annotation.MissingOverrideCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.annotation.PackageAnnotationCheck</key>
             <priority>MINOR</priority>
             <parameters />
@@ -275,12 +269,7 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck</key>
             <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>tokens</key>
-                    <value>LITERAL_WHILE,LITERAL_DO,LITERAL_FOR,LITERAL_IF,LITERAL_ELSE,LITERAL_SWITCH,LITERAL_CASE,LITERAL_TRY,LITERAL_CATCH,QUESTION</value>
-                </parameter>
-            </parameters>
+            <parameters />
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -439,28 +428,6 @@
             <key>FailedUnitTests</key>
             <priority>MAJOR</priority>
             <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>common-java</repositoryKey>
-            <key>InsufficientBranchCoverage</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>minimumBranchCoverageRatio</key>
-                    <value>65</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>common-java</repositoryKey>
-            <key>InsufficientLineCoverage</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>minimumLineCoverageRatio</key>
-                    <value>65</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>common-java</repositoryKey>
@@ -897,12 +864,6 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>ITC_INHERITANCE_TYPE_CHECKING</key>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>fb-contrib</repositoryKey>
-            <key>ITU_INAPPROPRIATE_TOSTRING_USE</key>
             <priority>INFO</priority>
             <parameters />
         </rule>
@@ -3774,17 +3735,6 @@
         </rule>
         <rule>
             <repositoryKey>pmd</repositoryKey>
-            <key>TooManyFields</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>maxfields</key>
-                    <value>15</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>pmd</repositoryKey>
             <key>TooManyStaticImports</key>
             <priority>MAJOR</priority>
             <parameters>
@@ -4121,17 +4071,6 @@
                 <parameter>
                     <key>format</key>
                     <value>^[A-Z][a-zA-Z0-9]*$</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S00103</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>maximumLineLength</key>
-                    <value>140</value>
                 </parameter>
             </parameters>
         </rule>
@@ -4804,21 +4743,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S1448</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>countNonpublicMethods</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
-                    <key>maximumMethodThreshold</key>
-                    <value>35</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>S1449</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5010,21 +4934,6 @@
             <key>S1764</key>
             <priority>CRITICAL</priority>
             <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1820</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>countNonpublicFields</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
-                    <key>maximumFieldThreshold</key>
-                    <value>20</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
@@ -5936,12 +5845,6 @@
             <repositoryKey>squid</repositoryKey>
             <key>S2698</key>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S2699</key>
-            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
