@@ -240,7 +240,12 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck</key>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters>
+                <parameter>
+                    <key>javadocTokens</key>
+                    <value>PARAM_LITERAL,RETURN_LITERAL,THROWS_LITERAL,DEPRECATED_LITERAL</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -3407,12 +3412,6 @@
         </rule>
         <rule>
             <repositoryKey>pmd</repositoryKey>
-            <key>AppendCharacterWithChar</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>pmd</repositoryKey>
             <key>AssignmentToNonFinalStatic</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -4897,6 +4896,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S1751</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S1764</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -5725,6 +5730,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2589</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2629</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -6152,6 +6163,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3457</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3518</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6211,6 +6228,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3751</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3776</key>
             <priority>CRITICAL</priority>
             <parameters>
@@ -6219,6 +6242,12 @@
                     <value>15</value>
                 </parameter>
             </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3923</key>
+            <priority>MAJOR</priority>
+            <parameters />
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
