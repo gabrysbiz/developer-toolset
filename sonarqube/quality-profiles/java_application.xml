@@ -3650,6 +3650,12 @@
         </rule>
         <rule>
             <repositoryKey>pmd</repositoryKey>
+            <key>OptimizableToArrayCall</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>pmd</repositoryKey>
             <key>RedundantFieldInitializer</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -4926,12 +4932,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S1850</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>S1854</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5856,6 +5856,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2757</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2786</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -6169,6 +6175,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3516</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3518</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6245,7 +6257,31 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3878</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3923</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3984</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3985</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3986</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
