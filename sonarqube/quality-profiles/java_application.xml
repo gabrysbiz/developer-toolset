@@ -238,17 +238,6 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>javadocTokens</key>
-                    <value>PARAM_LITERAL,RETURN_LITERAL,THROWS_LITERAL,DEPRECATED_LITERAL</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheck</key>
             <priority>MAJOR</priority>
             <parameters>
@@ -267,12 +256,6 @@
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.metrics.JavaNCSSCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -502,6 +485,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>BL_BURYING_LOGIC</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>BRPI_BACKPORT_REUSE_PUBLIC_IDENTIFIERS</key>
             <priority>INFO</priority>
             <parameters />
@@ -534,6 +523,12 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>CBX_CUSTOM_BUILT_XML</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>CCI_CONCURRENT_COLLECTION_ISSUES_USE_PUT_IS_RACY</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -672,6 +667,12 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>DLC_DUBIOUS_LIST_COLLECTION</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>DMC_DUBIOUS_MAP_COLLECTION</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -826,6 +827,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>IMC_IMMATURE_CLASS_WRONG_FIELD_ORDER</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>IOI_COPY_WITH_READER</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -834,6 +841,12 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>IOI_DOUBLE_BUFFER_COPY</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>IOI_USE_OF_FILE_STREAM_CONSTRUCTORS</key>
+            <priority>INFO</priority>
             <parameters />
         </rule>
         <rule>
@@ -970,6 +983,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>LO_EMBEDDED_SIMPLE_STRING_FORMAT_IN_FORMAT_STRING</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>LO_EXCEPTION_WITH_LOGGER_PARMS</key>
             <priority>INFO</priority>
             <parameters />
@@ -984,6 +1003,12 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>LO_INVALID_FORMATTING_ANCHOR</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>LO_INVALID_STRING_FORMAT_NOTATION</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1254,6 +1279,30 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>ODN_ORPHANED_DOM_NODE</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>OI_OPTIONAL_ISSUES_CHECKING_REFERENCE</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>OI_OPTIONAL_ISSUES_PRIMITIVE_VARIANT_PREFERRED</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>OI_OPTIONAL_ISSUES_USES_DELAYED_EXECUTION</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>OI_OPTIONAL_ISSUES_USES_IMMEDIATE_EXECUTION</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1558,6 +1607,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>SPP_NULL_CHECK_ON_MAP_SUBSET_ACCESSOR</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>SPP_NULL_CHECK_ON_OPTIONAL</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -1672,6 +1727,18 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>SPP_WRONG_COMMONS_TO_STRING_OBJECT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>SSCU_SUSPICIOUS_SHADED_CLASS_USE</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>STB_STACKED_TRY_BLOCKS</key>
             <priority>INFO</priority>
             <parameters />
@@ -1714,6 +1781,18 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>UAC_UNNECESSARY_API_CONVERSION_DATE_TO_INSTANT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>UAC_UNNECESSARY_API_CONVERSION_FILE_TO_PATH</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>UCC_UNRELATED_COLLECTION_CONTENTS</key>
             <priority>INFO</priority>
             <parameters />
@@ -1721,7 +1800,7 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>UCPM_USE_CHARACTER_PARAMETERIZED_METHOD</key>
-            <priority>INFO</priority>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1776,6 +1855,12 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>USBR_UNNECESSARY_STORE_BEFORE_RETURN</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>USFW_UNSYNCHRONIZED_SINGLETON_FIELD_WRITES</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1918,6 +2003,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>UTWR_USE_TRY_WITH_RESOURCES</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>UVA_USE_VAR_ARGS</key>
             <priority>INFO</priority>
             <parameters />
@@ -1932,6 +2023,12 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>WEM_WEAK_EXCEPTION_MESSAGING</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>WI_DUPLICATE_WIRED_TYPES</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -2236,6 +2333,12 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
+            <key>DP_DO_INSIDE_DO_PRIVILEDGED</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
             <key>DP_DO_INSIDE_DO_PRIVILEGED</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -2458,6 +2561,12 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
+            <key>LG_LOST_LOGGER_DUE_TO_WEAK_REFERENCE</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
             <key>LI_LAZY_INIT_INSTANCE</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -2596,6 +2705,18 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
+            <key>OBL_UNSATISFIED_OBLIGATION</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
+            <key>OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
             <key>PS_PUBLIC_SEMAPHORES</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -2640,6 +2761,12 @@
             <repositoryKey>findbugs</repositoryKey>
             <key>RANGE_STRING_INDEX</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
+            <key>RCN_REDUNDANT_CHECKED_NULL_COMPARISON</key>
+            <priority>INFO</priority>
             <parameters />
         </rule>
         <rule>
@@ -2754,6 +2881,12 @@
             <repositoryKey>findbugs</repositoryKey>
             <key>SI_INSTANCE_BEFORE_FINALS_ASSIGNED</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
+            <key>SKIPPED_CLASS_TOO_BIG</key>
+            <priority>INFO</priority>
             <parameters />
         </rule>
         <rule>
@@ -3988,17 +4121,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>MethodCyclomaticComplexity</key>
-            <priority>CRITICAL</priority>
-            <parameters>
-                <parameter>
-                    <key>Threshold</key>
-                    <value>10</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>MissingDeprecatedCheck</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -4625,17 +4747,6 @@
             <key>S1301</key>
             <priority>MINOR</priority>
             <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S1309</key>
-            <priority>INFO</priority>
-            <parameters>
-                <parameter>
-                    <key>listOfWarnings</key>
-                    <value>unchecked</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
@@ -6243,17 +6354,6 @@
             <key>S3751</key>
             <priority>BLOCKER</priority>
             <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S3776</key>
-            <priority>CRITICAL</priority>
-            <parameters>
-                <parameter>
-                    <key>Threshold</key>
-                    <value>15</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
