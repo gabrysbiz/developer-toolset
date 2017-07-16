@@ -61,6 +61,10 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,METHOD_DEF,CTOR_DEF,VARIABLE_DEF</value>
+                </parameter>
+                <parameter>
                     <key>allowSamelineSingleParameterlessAnnotation</key>
                     <value>true</value>
                 </parameter>
@@ -71,10 +75,6 @@
                 <parameter>
                     <key>allowSamelineMultipleAnnotations</key>
                     <value>false</value>
-                </parameter>
-                <parameter>
-                    <key>tokens</key>
-                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,METHOD_DEF,CTOR_DEF,VARIABLE_DEF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -265,6 +265,10 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,ANNOTATION_DEF,ANNOTATION_FIELD_DEF,PARAMETER_DEF,VARIABLE_DEF,METHOD_DEF</value>
+                </parameter>
+                <parameter>
                     <key>ignoreOverriddenMethods</key>
                     <value>true</value>
                 </parameter>
@@ -279,10 +283,6 @@
                 <parameter>
                     <key>allowedAbbreviationLength</key>
                     <value>3</value>
-                </parameter>
-                <parameter>
-                    <key>tokens</key>
-                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,ANNOTATION_DEF,ANNOTATION_FIELD_DEF,PARAMETER_DEF,VARIABLE_DEF,METHOD_DEF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -3783,12 +3783,6 @@
         </rule>
         <rule>
             <repositoryKey>pmd</repositoryKey>
-            <key>OptimizableToArrayCall</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>pmd</repositoryKey>
             <key>RedundantFieldInitializer</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -6395,6 +6389,12 @@
             <repositoryKey>squid</repositoryKey>
             <key>S3986</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4032</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>

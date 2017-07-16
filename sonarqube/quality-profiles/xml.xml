@@ -81,5 +81,11 @@
             <priority>MAJOR</priority>
             <parameters />
         </rule>
+        <rule>
+            <repositoryKey>xml</repositoryKey>
+            <key>S2260</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
     </rules>
 </profile>
