@@ -1037,6 +1037,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>LO_TOSTRING_PARAMETER</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>LSC_LITERAL_STRING_COMPARISON</key>
             <priority>INFO</priority>
             <parameters />
@@ -1307,6 +1313,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>OI_OPTIONAL_ISSUES_USES_ORELSEGET_WITH_NULL</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>OPM_OVERLY_PERMISSIVE_METHOD</key>
             <priority>INFO</priority>
             <parameters />
@@ -1375,6 +1387,12 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>PUS_POSSIBLE_UNSUSPECTED_SERIALIZATION</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>RFI_SET_ACCESSIBLE</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1746,6 +1764,12 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>STS_SPURIOUS_THREAD_STATES</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>STT_TOSTRING_MAP_KEYING</key>
             <priority>INFO</priority>
             <parameters />
         </rule>
@@ -3131,8 +3155,20 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>AWS_QUERY_INJECTION</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>BAD_HEXA_CONVERSION</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>BEAN_PROPERTY_INJECTION</key>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -3155,6 +3191,12 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>COOKIE_PERSISTENT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>COOKIE_USAGE</key>
             <priority>INFO</priority>
             <parameters />
@@ -3169,6 +3211,18 @@
             <repositoryKey>findsecbugs</repositoryKey>
             <key>CUSTOM_MESSAGE_DIGEST</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>DEFAULT_HTTP_CLIENT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>DESERIALIZATION_GADGET</key>
+            <priority>INFO</priority>
             <parameters />
         </rule>
         <rule>
@@ -3209,6 +3263,12 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>FORMAT_STRING_MANIPULATION</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>HARD_CODE_KEY</key>
             <priority>INFO</priority>
             <parameters />
@@ -3233,6 +3293,12 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>HTTP_PARAMETER_POLLUTION</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>HTTP_RESPONSE_SPLITTING</key>
             <priority>INFO</priority>
             <parameters />
@@ -3245,6 +3311,18 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>INSECURE_SMTP_SSL</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>JACKSON_UNSAFE_DESERIALIZATION</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>JAXRS_ENDPOINT</key>
             <priority>INFO</priority>
             <parameters />
@@ -3253,6 +3331,18 @@
             <repositoryKey>findsecbugs</repositoryKey>
             <key>JAXWS_ENDPOINT</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>LDAP_ANONYMOUS</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>LDAP_ENTRY_POISONING</key>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -3281,6 +3371,12 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>OGNL_INJECTION</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>PADDING_ORACLE</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -3288,6 +3384,18 @@
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
             <key>PATH_TRAVERSAL_OUT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>PERMISSIVE_CORS</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>PLAY_UNVALIDATED_REDIRECT</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -3383,8 +3491,44 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>SPRING_CSRF_PROTECTION_DISABLED</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>SPRING_ENDPOINT</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>SPRING_FILE_DISCLOSURE</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>SPRING_UNVALIDATED_REDIRECT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>SQL_INJECTION</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>SQL_INJECTION_ANDROID</key>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -3419,6 +3563,18 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>SQL_INJECTION_TURBINE</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>SSL_CONTEXT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>STATIC_IV</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -3437,6 +3593,12 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>STRUTS_FILE_DISCLOSURE</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>STRUTS_FORM_VALIDATION</key>
             <priority>INFO</priority>
             <parameters />
@@ -3449,7 +3611,25 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>TEMPLATE_INJECTION_FREEMARKER</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>TEMPLATE_INJECTION_VELOCITY</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>TRUST_BOUNDARY_VIOLATION</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>UNENCRYPTED_SERVER_SOCKET</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -3462,6 +3642,12 @@
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
             <key>UNVALIDATED_REDIRECT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>URL_REWRITING</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -3540,6 +3726,12 @@
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
             <key>XXE_XMLREADER</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>XXE_XMLSTREAMREADER</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
@@ -5391,6 +5583,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2143</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2147</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5547,6 +5745,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2196</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2197</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -5565,6 +5769,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2203</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2204</key>
             <priority>BLOCKER</priority>
             <parameters />
@@ -5578,6 +5788,12 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2209</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2211</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -6151,6 +6367,18 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3242</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3254</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3281</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -6234,6 +6462,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3415</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3419</key>
             <priority>MINOR</priority>
             <parameters>
@@ -6270,6 +6504,12 @@
             <repositoryKey>squid</repositoryKey>
             <key>S3423</key>
             <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3436</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6363,6 +6603,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3824</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3878</key>
             <priority>MINOR</priority>
             <parameters />
@@ -6370,6 +6616,36 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S3923</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3937</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3958</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3959</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3972</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3981</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -6395,6 +6671,54 @@
             <repositoryKey>squid</repositoryKey>
             <key>S4032</key>
             <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4034</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4042</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4065</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4087</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4142</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4143</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4144</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4165</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
