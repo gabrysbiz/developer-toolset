@@ -4568,7 +4568,7 @@
             <parameters>
                 <parameter>
                     <key>Authorized numbers</key>
-                    <value>-1,0,1</value>
+                    <value>-1,0,1,2</value>
                 </parameter>
             </parameters>
         </rule>
@@ -5956,7 +5956,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2384</key>
-            <priority>CRITICAL</priority>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
