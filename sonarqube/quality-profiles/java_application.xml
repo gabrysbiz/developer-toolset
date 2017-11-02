@@ -4166,23 +4166,6 @@
         </rule>
         <rule>
             <repositoryKey>pmd-unit-tests</repositoryKey>
-            <key>JUnitTestContainsTooManyAsserts</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>maximumAsserts</key>
-                    <value>1</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>pmd-unit-tests</repositoryKey>
-            <key>JUnitUseExpected</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>pmd-unit-tests</repositoryKey>
             <key>SimplifyBooleanAssertion</key>
             <priority>MINOR</priority>
             <parameters />
@@ -4190,12 +4173,6 @@
         <rule>
             <repositoryKey>pmd-unit-tests</repositoryKey>
             <key>UnnecessaryBooleanAssertion</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>pmd-unit-tests</repositoryKey>
-            <key>UseAssertEqualsInsteadOfAssertTrue</key>
             <priority>MINOR</priority>
             <parameters />
         </rule>
@@ -6153,12 +6130,6 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>S2698</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>S2701</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -6250,7 +6221,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2974</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
