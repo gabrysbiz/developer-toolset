@@ -28,12 +28,6 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.FileContentsHolder</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheck</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5370,7 +5364,12 @@
             <repositoryKey>squid</repositoryKey>
             <key>S2068</key>
             <priority>CRITICAL</priority>
-            <parameters />
+            <parameters>
+                <parameter>
+                    <key>credentialWords</key>
+                    <value>password,passwd,pwd</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
@@ -6678,6 +6677,30 @@
             <repositoryKey>squid</repositoryKey>
             <key>S4165</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4288</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4347</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4348</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4349</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
