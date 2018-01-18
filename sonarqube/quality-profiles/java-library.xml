@@ -80,6 +80,12 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.annotation.MissingOverrideCheck</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.annotation.PackageAnnotationCheck</key>
             <priority>MINOR</priority>
             <parameters />
