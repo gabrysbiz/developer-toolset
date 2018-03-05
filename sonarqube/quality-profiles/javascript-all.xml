@@ -11,8 +11,32 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>CollapsibleIfStatements</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>ElseIfWithoutElse</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>EqEqEq</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>ForIn</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>FutureReservedWords</key>
+            <priority>BLOCKER</priority>
             <parameters />
         </rule>
         <rule>
@@ -24,6 +48,12 @@
         <rule>
             <repositoryKey>javascript</repositoryKey>
             <key>NonEmptyCaseWithoutBreak</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>OctalNumber</key>
             <priority>BLOCKER</priority>
             <parameters />
         </rule>
@@ -41,13 +71,54 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>S1067</key>
+            <priority>CRITICAL</priority>
+            <parameters>
+                <parameter>
+                    <key>max</key>
+                    <value>3</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>S1105</key>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>S1128</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S1134</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S1135</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S1219</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>S1264</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S1301</key>
             <priority>MINOR</priority>
             <parameters />
         </rule>
@@ -71,6 +142,18 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>S1862</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S1994</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>S2138</key>
             <priority>MINOR</priority>
             <parameters />
@@ -79,6 +162,18 @@
             <repositoryKey>javascript</repositoryKey>
             <key>S2208</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S2228</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S2251</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -107,6 +202,12 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>S2611</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>S2685</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -131,7 +232,24 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>S2713</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>format</key>
+                    <value>^\$[a-z][a-zA-Z0-9]*$</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>S2714</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S2715</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -173,7 +291,30 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>S2990</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S2999</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>considerJSDoc</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>S3001</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S3002</key>
             <priority>MINOR</priority>
             <parameters />
         </rule>
@@ -209,8 +350,50 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>S3735</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>S3757</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S3758</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S3785</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S3828</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S3834</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S3854</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S3972</key>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -229,6 +412,48 @@
             <repositoryKey>javascript</repositoryKey>
             <key>StrictMode</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>SwitchWithoutDefault</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>TrailingComma</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>UnusedFunctionArgument</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>UnusedVariable</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>VariableDeclarationAfterUsage</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>VariableShadowing</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>WithStatement</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
     </rules>
