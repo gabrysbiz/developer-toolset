@@ -6681,6 +6681,18 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S4266</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4275</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S4288</key>
             <priority>MAJOR</priority>
             <parameters />
