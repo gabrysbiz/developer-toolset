@@ -5823,6 +5823,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2234</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2235</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6526,6 +6532,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3510</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3516</key>
             <priority>BLOCKER</priority>
             <parameters />
@@ -6557,6 +6569,12 @@
             <repositoryKey>squid</repositoryKey>
             <key>S3599</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3626</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6711,14 +6729,38 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S4201</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4248</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S4266</key>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S4274</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S4275</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4276</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6753,6 +6795,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S4423</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S4449</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -6760,6 +6808,12 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S4454</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4524</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
