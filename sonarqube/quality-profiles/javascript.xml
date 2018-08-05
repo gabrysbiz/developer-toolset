@@ -1,52 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <profile>
-    <name>gabrys.biz reviewed</name>
+    <name>gabrys.biz</name>
     <language>js</language>
     <rules>
         <rule>
             <repositoryKey>common-js</repositoryKey>
             <key>DuplicatedBlocks</key>
             <priority>MAJOR</priority>
-            <parameters/>
+            <parameters />
         </rule>
         <rule>
             <repositoryKey>common-js</repositoryKey>
             <key>FailedUnitTests</key>
             <priority>MAJOR</priority>
             <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>common-js</repositoryKey>
-            <key>InsufficientBranchCoverage</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>minimumBranchCoverageRatio</key>
-                    <value>65</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>common-js</repositoryKey>
-            <key>InsufficientCommentDensity</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>minimumCommentDensity</key>
-                    <value>25</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>common-js</repositoryKey>
-            <key>InsufficientLineCoverage</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>minimumLineCoverageRatio</key>
-                    <value>65</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>common-js</repositoryKey>
@@ -92,20 +59,8 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
-            <key>ConditionalOperator</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>javascript</repositoryKey>
             <key>ConstructorFunctionsForSideEffects</key>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>javascript</repositoryKey>
-            <key>ContinueStatement</key>
-            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -172,17 +127,6 @@
             <key>ForIn</key>
             <priority>MAJOR</priority>
             <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>javascript</repositoryKey>
-            <key>FunctionComplexity</key>
-            <priority>CRITICAL</priority>
-            <parameters>
-                <parameter>
-                    <key>maximumFunctionComplexityThreshold</key>
-                    <value>10</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
@@ -839,12 +783,6 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
-            <key>S3498</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>javascript</repositoryKey>
             <key>S3499</key>
             <priority>MINOR</priority>
             <parameters />
@@ -857,20 +795,8 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
-            <key>S3504</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>javascript</repositoryKey>
             <key>S3509</key>
             <priority>BLOCKER</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>javascript</repositoryKey>
-            <key>S3512</key>
-            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -956,12 +882,6 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
-            <key>S3723</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>javascript</repositoryKey>
             <key>S3735</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -989,17 +909,6 @@
             <key>S3760</key>
             <priority>MAJOR</priority>
             <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>javascript</repositoryKey>
-            <key>S3776</key>
-            <priority>CRITICAL</priority>
-            <parameters>
-                <parameter>
-                    <key>threshold</key>
-                    <value>15</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
@@ -1256,12 +1165,6 @@
             <repositoryKey>javascript</repositoryKey>
             <key>VariableDeclarationAfterUsage</key>
             <priority>BLOCKER</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>javascript</repositoryKey>
-            <key>VariableShadowing</key>
-            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>

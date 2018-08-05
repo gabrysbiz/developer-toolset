@@ -3070,12 +3070,6 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
-            <key>UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>findbugs</repositoryKey>
             <key>VA_PRIMITIVE_ARRAY_PASSED_TO_OBJECT_VARARG</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6932,7 +6926,31 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S4508</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4510</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S4524</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4529</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4544</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
