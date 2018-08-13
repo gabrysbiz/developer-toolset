@@ -30,7 +30,7 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheck</key>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters/>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -3676,12 +3676,6 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
-            <key>WEAK_MESSAGE_DIGEST_SHA1</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>findsecbugs</repositoryKey>
             <key>WEAK_TRUST_MANAGER</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -5709,7 +5703,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2187</key>
-            <priority>MAJOR</priority>
+            <priority>BLOCKER</priority>
             <parameters />
         </rule>
         <rule>
@@ -7040,11 +7034,11 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>TrailingCommentCheck</key>
-            <priority>INFO</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>legalTrailingCommentPattern</key>
-                    <value>^\s*+[^\s]++$</value>
+                    <value>^$</value>
                 </parameter>
             </parameters>
         </rule>

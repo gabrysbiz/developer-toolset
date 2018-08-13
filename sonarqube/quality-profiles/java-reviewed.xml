@@ -7,7 +7,7 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck</key>
             <priority>MINOR</priority>
-            <parameters />
+            <parameters/>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -8637,7 +8637,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2187</key>
-            <priority>MAJOR</priority>
+            <priority>BLOCKER</priority>
             <parameters />
         </rule>
         <rule>
@@ -10042,11 +10042,11 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>TrailingCommentCheck</key>
-            <priority>INFO</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>legalTrailingCommentPattern</key>
-                    <value>^\s*+[^\s]++$</value>
+                    <value>^$</value>
                 </parameter>
             </parameters>
         </rule>
