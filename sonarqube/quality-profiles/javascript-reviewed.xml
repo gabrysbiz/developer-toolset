@@ -441,12 +441,12 @@
             <priority>BLOCKER</priority>
             <parameters>
                 <parameter>
-                    <key>isRegularExpression</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
                     <key>headerFormat</key>
                     <value>^\/\*.+\.projects\.gabrys\.biz\/.+Copyright \(c\) [0-9]{4}.+This file is licensed under the.+\(the "License"\)\..+You may not use this file except in compliance with the License\..+You may obtain:.+- a copy of the License at project page.+- a template of the License at.+$</value>
+                </parameter>
+                <parameter>
+                    <key>isRegularExpression</key>
+                    <value>true</value>
                 </parameter>
             </parameters>
         </rule>
@@ -903,11 +903,11 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>parameter_parens</key>
+                    <key>body_braces</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
-                    <key>body_braces</key>
+                    <key>parameter_parens</key>
                     <value>false</value>
                 </parameter>
             </parameters>
