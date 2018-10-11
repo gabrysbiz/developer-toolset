@@ -334,6 +334,17 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>S1192</key>
+            <priority>CRITICAL</priority>
+            <parameters>
+                <parameter>
+                    <key>threshold</key>
+                    <value>3</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>S1219</key>
             <priority>BLOCKER</priority>
             <parameters />
@@ -396,6 +407,17 @@
         </rule>
         <rule>
             <repositoryKey>javascript</repositoryKey>
+            <key>S1479</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>maximum</key>
+                    <value>30</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
             <key>S1488</key>
             <priority>MINOR</priority>
             <parameters />
@@ -440,6 +462,12 @@
             <repositoryKey>javascript</repositoryKey>
             <key>S1871</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S1940</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -535,6 +563,12 @@
         <rule>
             <repositoryKey>javascript</repositoryKey>
             <key>S2427</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S2428</key>
             <priority>MINOR</priority>
             <parameters />
         </rule>
@@ -637,6 +671,12 @@
             <repositoryKey>javascript</repositoryKey>
             <key>S2716</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S2737</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
