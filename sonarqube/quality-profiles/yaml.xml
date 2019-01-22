@@ -7,7 +7,7 @@
             <repositoryKey>common-yaml</repositoryKey>
             <key>DuplicatedBlocks</key>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters/>
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
@@ -258,17 +258,6 @@
             <key>ParsingErrorCheck</key>
             <priority>BLOCKER</priority>
             <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>yaml</repositoryKey>
-            <key>QuotedStringsCheck</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>quote-type</key>
-                    <value>any</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
