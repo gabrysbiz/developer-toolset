@@ -88,6 +88,35 @@
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
+            <key>S103</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>maximumLineLength</key>
+                    <value>120</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>xml</repositoryKey>
+            <key>S1134</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>xml</repositoryKey>
+            <key>S1135</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>xml</repositoryKey>
+            <key>S125</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>xml</repositoryKey>
             <key>S1778</key>
             <priority>MAJOR</priority>
             <parameters />

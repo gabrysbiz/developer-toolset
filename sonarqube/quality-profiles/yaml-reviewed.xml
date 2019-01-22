@@ -213,6 +213,12 @@
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
+            <key>ForbiddenValueCheck</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>yaml</repositoryKey>
             <key>HyphensCheck</key>
             <priority>MINOR</priority>
             <parameters>
@@ -264,7 +270,7 @@
                 </parameter>
                 <parameter>
                     <key>max</key>
-                    <value>80</value>
+                    <value>120</value>
                 </parameter>
                 <parameter>
                     <key>allow-non-breakable-inline-mappings</key>
@@ -309,6 +315,17 @@
             <key>ParsingErrorCheck</key>
             <priority>BLOCKER</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>yaml</repositoryKey>
+            <key>QuotedStringsCheck</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>quote-type</key>
+                    <value>any</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
