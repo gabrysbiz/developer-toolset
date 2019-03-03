@@ -60,11 +60,11 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>indentSize</key>
+                    <key>tabSize</key>
                     <value>4</value>
                 </parameter>
                 <parameter>
-                    <key>tabSize</key>
+                    <key>indentSize</key>
                     <value>4</value>
                 </parameter>
             </parameters>

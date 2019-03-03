@@ -30,7 +30,7 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheck</key>
             <priority>MAJOR</priority>
-            <parameters/>
+            <parameters />
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -466,6 +466,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>AI_ANNOTATION_ISSUES_NEEDS_NULLABLE</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>AOM_ABSTRACT_OVERRIDDEN_METHOD</key>
             <priority>INFO</priority>
             <parameters />
@@ -732,6 +738,48 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>FCBL_FIELD_COULD_BE_LOCAL</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>FII_AVOID_CONTAINS_ON_COLLECTED_STREAM</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>FII_AVOID_SIZE_ON_COLLECTED_STREAM</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>FII_COMBINE_FILTERS</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>FII_USE_ANY_MATCH</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>FII_USE_FIND_FIRST</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>FII_USE_FUNCTION_IDENTITY</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>FII_USE_METHOD_REFERENCE</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1030,6 +1078,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>LO_NON_PRIVATE_STATIC_LOGGER</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>LO_STUTTERED_MESSAGE</key>
             <priority>INFO</priority>
             <parameters />
@@ -1062,6 +1116,24 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>LSYC_LOCAL_SYNCHRONIZED_COLLECTION</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>LUI_USE_COLLECTION_ADD</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>LUI_USE_GET0</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>LUI_USE_SINGLETON_LIST</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1176,6 +1248,36 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>MUC_MODIFYING_UNMODIFIABLE_COLLECTION</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>MUI_CALLING_SIZE_ON_SUBCONTAINER</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>MUI_CONTAINSKEY_BEFORE_GET</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>MUI_GET_BEFORE_REMOVE</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>MUI_NULL_CHECK_ON_MAP_SUBSET_ACCESSOR</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>MUI_USE_CONTAINSKEY</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1392,6 +1494,12 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>PSC_PRESIZE_COLLECTIONS</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>PSC_SUBOPTIMAL_COLLECTION_SIZING</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1636,18 +1744,6 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
-            <key>SPP_NULL_CHECK_ON_MAP_SUBSET_ACCESSOR</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>fb-contrib</repositoryKey>
-            <key>SPP_NULL_CHECK_ON_OPTIONAL</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>fb-contrib</repositoryKey>
             <key>SPP_SERIALVER_SHOULD_BE_PRIVATE</key>
             <priority>INFO</priority>
             <parameters />
@@ -1720,12 +1816,6 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
-            <key>SPP_USE_CONTAINSKEY</key>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>fb-contrib</repositoryKey>
             <key>SPP_USE_GET0</key>
             <priority>INFO</priority>
             <parameters />
@@ -1752,6 +1842,12 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>SPP_USE_STRINGBUILDER_LENGTH</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>SPP_USE_ZERO_WITH_COMPARATOR</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -1788,6 +1884,18 @@
             <repositoryKey>fb-contrib</repositoryKey>
             <key>SUA_SUSPICIOUS_UNINITIALIZED_ARRAY</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>SUI_CONTAINS_BEFORE_ADD</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>SUI_CONTAINS_BEFORE_REMOVE</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -2063,6 +2171,12 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>WI_DUPLICATE_WIRED_TYPES</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>WI_MANUALLY_ALLOCATING_AN_AUTOWIRED_BEAN</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -2560,6 +2674,12 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
+            <key>IRA_INEFFICIENT_REPLACEALL</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
             <key>IS2_INCONSISTENT_SYNC</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -2837,7 +2957,7 @@
         <rule>
             <repositoryKey>findbugs</repositoryKey>
             <key>REC_CATCH_EXCEPTION</key>
-            <priority>MAJOR</priority>
+            <priority>INFO</priority>
             <parameters />
         </rule>
         <rule>
@@ -3310,6 +3430,12 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE</key>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>INSECURE_COOKIE</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -3353,12 +3479,6 @@
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
             <key>LDAP_INJECTION</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>findsecbugs</repositoryKey>
-            <key>MALICIOUS_XSLT</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
@@ -3413,6 +3533,12 @@
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
             <key>REDOS</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>REQUESTDISPATCHER_FILE_DISCLOSURE</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -3486,6 +3612,12 @@
             <repositoryKey>findsecbugs</repositoryKey>
             <key>SERVLET_SESSION_ID</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>SMTP_HEADER_INJECTION</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -3616,6 +3748,12 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>TDES_USAGE</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>TEMPLATE_INJECTION_FREEMARKER</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -3646,7 +3784,19 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>UNSAFE_HASH_EQUALS</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>UNVALIDATED_REDIRECT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>URLCONNECTION_SSRF_FD</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -3665,12 +3815,6 @@
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
             <key>WEAK_HOSTNAME_VERIFIER</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>findsecbugs</repositoryKey>
-            <key>WEAK_MESSAGE_DIGEST_MD5</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -3718,6 +3862,12 @@
         </rule>
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
+            <key>XXE_DTD_TRANSFORM_FACTORY</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
             <key>XXE_SAXPARSER</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -3731,6 +3881,18 @@
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
             <key>XXE_XMLSTREAMREADER</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>XXE_XPATH</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>XXE_XSLT_TRANSFORM_FACTORY</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
@@ -4782,7 +4944,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S1192</key>
-            <priority>MINOR</priority>
+            <priority>CRITICAL</priority>
             <parameters>
                 <parameter>
                     <key>threshold</key>
@@ -5057,6 +5219,12 @@
             <repositoryKey>squid</repositoryKey>
             <key>S1488</key>
             <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S1523</key>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -5421,7 +5589,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2093</key>
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -5480,6 +5648,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2115</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2116</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -5487,6 +5661,12 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2118</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2119</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
@@ -5535,6 +5715,12 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2134</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2139</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -5775,7 +5961,7 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S2221</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6086,6 +6272,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S2647</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S2653</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6124,6 +6316,12 @@
             <repositoryKey>squid</repositoryKey>
             <key>S2681</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S2689</key>
+            <priority>BLOCKER</priority>
             <parameters />
         </rule>
         <rule>
@@ -6295,6 +6493,18 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3011</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3014</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3020</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6315,6 +6525,12 @@
                     <value>0</value>
                 </parameter>
             </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3032</key>
+            <priority>MINOR</priority>
+            <parameters />
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
@@ -6354,6 +6570,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3065</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3066</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6361,6 +6583,18 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S3067</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3077</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3078</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -6409,6 +6643,12 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S3330</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3331</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
@@ -6573,6 +6813,12 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3551</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3553</key>
             <priority>MINOR</priority>
             <parameters />
@@ -6650,7 +6896,19 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S3822</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S3824</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S3864</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -6932,6 +7190,18 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S4512</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4517</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S4524</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -6939,6 +7209,18 @@
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S4529</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4530</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4531</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -6992,8 +7274,134 @@
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
+            <key>S4682</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
             <key>S4684</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4719</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4721</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4738</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4784</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4787</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4790</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4792</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4797</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4817</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4818</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4823</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4825</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4829</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4834</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4838</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4925</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4929</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S4973</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S5042</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>squid</repositoryKey>
+            <key>S5122</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>

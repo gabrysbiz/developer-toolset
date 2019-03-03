@@ -7,7 +7,7 @@
             <repositoryKey>common-yaml</repositoryKey>
             <key>DuplicatedBlocks</key>
             <priority>MAJOR</priority>
-            <parameters/>
+            <parameters />
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
