@@ -6,18 +6,21 @@
         <rule>
             <repositoryKey>common-xml</repositoryKey>
             <key>DuplicatedBlocks</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>common-xml</repositoryKey>
             <key>FailedUnitTests</key>
+            <type>BUG</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>common-xml</repositoryKey>
             <key>InsufficientBranchCoverage</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
@@ -29,6 +32,7 @@
         <rule>
             <repositoryKey>common-xml</repositoryKey>
             <key>InsufficientLineCoverage</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
@@ -40,12 +44,14 @@
         <rule>
             <repositoryKey>common-xml</repositoryKey>
             <key>SkippedUnitTests</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>IllegalTabCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -57,6 +63,7 @@
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>IndentCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -72,12 +79,14 @@
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>NewlineCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S103</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
@@ -89,30 +98,35 @@
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S1134</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S1135</key>
+            <type>CODE_SMELL</type>
             <priority>INFO</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S125</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S1778</key>
+            <type>BUG</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S2260</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>

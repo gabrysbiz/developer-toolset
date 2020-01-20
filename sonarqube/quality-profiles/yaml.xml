@@ -6,12 +6,14 @@
         <rule>
             <repositoryKey>common-yaml</repositoryKey>
             <key>DuplicatedBlocks</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>BracesCheck</key>
+            <type>CODE_SMELL</type>
             <priority>INFO</priority>
             <parameters>
                 <parameter>
@@ -35,6 +37,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>BracketsCheck</key>
+            <type>CODE_SMELL</type>
             <priority>INFO</priority>
             <parameters>
                 <parameter>
@@ -58,6 +61,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>ColonsCheck</key>
+            <type>CODE_SMELL</type>
             <priority>INFO</priority>
             <parameters>
                 <parameter>
@@ -73,6 +77,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>CommasCheck</key>
+            <type>CODE_SMELL</type>
             <priority>INFO</priority>
             <parameters>
                 <parameter>
@@ -92,6 +97,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>CommentsCheck</key>
+            <type>CODE_SMELL</type>
             <priority>INFO</priority>
             <parameters>
                 <parameter>
@@ -107,12 +113,14 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>CommentsIndentationCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>DocumentEndCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
@@ -124,6 +132,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>DocumentStartCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
@@ -135,6 +144,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>EmptyLinesCheck</key>
+            <type>CODE_SMELL</type>
             <priority>INFO</priority>
             <parameters>
                 <parameter>
@@ -154,6 +164,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>EmptyValuesCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
@@ -169,6 +180,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>HyphensCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -180,6 +192,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>IndentationCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -199,12 +212,14 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>KeyDuplicatesCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>LineLengthCheck</key>
+            <type>CODE_SMELL</type>
             <priority>INFO</priority>
             <parameters>
                 <parameter>
@@ -224,12 +239,14 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>NewLineAtEndOfFileCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>NewLinesCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -241,6 +258,7 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>OctalValuesCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
@@ -256,18 +274,21 @@
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>ParsingErrorCheck</key>
+            <type>CODE_SMELL</type>
             <priority>BLOCKER</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>TrailingSpacesCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>yaml</repositoryKey>
             <key>TruthyCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
